@@ -14,7 +14,7 @@ public class Sportmaster {
         final int SILVER_LEVEL = 150_000;
         final int BONUS_SILVER = 70;
 
-        final int GOLD_LEVEL = 151_000;
+        final int GOLD_LEVEL = 150_000;
         final int BONUS_GOLD = 100;
 
         //Сумма всех покупок
