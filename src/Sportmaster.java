@@ -5,8 +5,7 @@ public class Sportmaster {
     public static void main(String[] args) {
         int amountOfPastPurchase = 5000;
         int amountOfCurrentPurchase = 14000;
-        int bonus;
-        final int AmountForBonus = 1000; //The buyer receives bonuses for every 1000 rubles in the amount of the check.
+        final int amountForBonus = 1000; //The buyer receives bonuses for every 1000 rubles in the amount of the check.
 
         //Types of Bonus Cards
         final int STANDART_LEVEL = 15_000;
@@ -21,6 +20,7 @@ public class Sportmaster {
         //The sum of all purchases
         int amountOfAllPurchase = amountOfPastPurchase + amountOfCurrentPurchase;
 
+        int bonus;
         if (amountOfAllPurchase <= STANDART_LEVEL) {
             bonus = amountOfCurrentPurchase / AmountForBonus * BONUS_STANDART;
             System.out.println(bonus);
