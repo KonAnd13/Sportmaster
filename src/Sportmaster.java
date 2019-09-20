@@ -16,8 +16,8 @@ public class Sportmaster {
         final int GOLD_LEVEL = 150_000;
         final int BONUS_GOLD = 100;
 
-        int bonus;
-        int bonusMultiplication = amountOfCurrentPurchase / AmountForBonus;
+        int bonus = 0;
+        int bonusMultiplication = amountOfCurrentPurchase / amountForBonus;
         int amountOfAllPurchase = amountOfPastPurchase + amountOfCurrentPurchase;
         
         if (amountOfAllPurchase <= STANDART_LEVEL) {
