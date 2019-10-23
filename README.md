@@ -1,4 +1,4 @@
-ДЗ: Спортмастер
+# Спортмастер
 
 (по мотивам https://www.sportmaster.ru/misc/pages/clubpro/about.do)
 
